@@ -1,0 +1,12 @@
+.footer__columns {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer__columns {
+    width: 80%;
+  }
+}
