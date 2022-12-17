@@ -3,6 +3,6 @@
   padding: 0;
 }
 
-.place__paragraph:first-child {
-  padding-bottom: 1.625rem;
+.place__paragraph:not(:last-child) {
+  padding-bottom: 25px;
 }
