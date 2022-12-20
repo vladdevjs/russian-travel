@@ -19,3 +19,9 @@
     padding: 64px 16px 66px;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .places {
+    padding: 64px 0 66px;
+  }
+}

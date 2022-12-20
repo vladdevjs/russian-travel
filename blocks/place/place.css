@@ -30,8 +30,4 @@
     grid-row-gap: 32px;
     padding-bottom: 50px;
   }
-
-  .place:last-child {
-    padding-bottom: 0;
-  }
 }

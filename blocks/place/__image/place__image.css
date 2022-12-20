@@ -5,12 +5,3 @@
   height: auto;
   width: 100%;
 }
-
-@media screen and (max-width: 425px) {
-  .place__image {
-    margin: 0 auto;
-    margin-left: -16px;
-    margin-right: -16px;
-    width: calc(100% + 32px);
-  }
-}

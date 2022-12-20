@@ -1,0 +1,13 @@
+.header__lang-item {
+  padding-bottom: 6px;
+}
+
+.header__lang-item:first-child {
+  margin-right: 18px;
+}
+
+@media screen and (max-width: 767px) {
+  .header__lang-item {
+    padding-bottom: 8px;
+  }
+}
