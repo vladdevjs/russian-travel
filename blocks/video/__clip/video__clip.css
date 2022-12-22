@@ -1,0 +1,23 @@
+.video__clip {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.video__clip:before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #2a2c2f;
+  opacity: 0.5;
+  transition: all 0.5s ease;
+}
+
+.video__clip:hover:before {
+  opacity: 0.8;
+  cursor: pointer;
+}

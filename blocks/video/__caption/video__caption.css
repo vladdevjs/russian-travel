@@ -1,0 +1,6 @@
+.video__caption {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  z-index: 10;
+}
